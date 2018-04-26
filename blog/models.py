@@ -26,4 +26,4 @@ class Post(models.Model):
 		self.save()
 # __ aka dunder		
 	def __str__(self):
-		return self.title
+		return self.title 
